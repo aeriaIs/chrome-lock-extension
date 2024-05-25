@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Lock",
+  "description": "Locks the browser - by Aerials",
+  "version": "1.0",
+  "permissions": ["tabs", "storage", "activeTab", "webNavigation"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "24": "images/icon24.png",
+      "72": "images/icon72.png",
+      "114": "images/icon114.png"
+    }
+  }
+}
